@@ -1,0 +1,195 @@
+================================================================================
+                           ALPHA SCORE - PRIVACY POLICY
+================================================================================
+
+Version:        1.0
+Last updated:   August 20, 2026
+Applies to:     Alpha Score browser extension (Chrome Web Store)
+Source code:    https://github.com/AlphaAnogona/alpha-score
+Contact:        https://github.com/AlphaAnogona/alpha-score/issues
+
+
+--------------------------------------------------------------------------------
+1. SUMMARY (TL;DR)
+--------------------------------------------------------------------------------
+
+Alpha Score shows trust ratings for crypto projects when you browse the web.
+
+  * The extension runs 100% locally in your browser.
+
+  * NO data is ever transmitted anywhere. No servers, no APIs, no analytics.
+
+  * Your settings (badge position, size, on/off state) and usage statistics
+    are stored only on your device using the browser's local storage.
+
+  * No accounts. No tracking. No ads. No data collection of any kind.
+
+  * Uninstalling the extension deletes all locally stored data.
+
+
+AT A GLANCE - OUR DATA PRACTICES
+
+  Stored on your device:          settings, badge position, found project
+                                  counts (for stats display)
+  Sent off your device:           nothing - zero network requests
+  Personal info and accounts:     none - no sign-up exists
+  Browsing history:               read locally ONLY when you click "Scan"
+                                  button; never stored, never transmitted
+  Page content:                   scanned locally for project names;
+                                  never stored, never transmitted
+  Analytics or tracking:          none
+  Sale or sharing of data:        none - there is no data to share
+
+
+--------------------------------------------------------------------------------
+2. SCOPE
+--------------------------------------------------------------------------------
+
+This policy applies to the Alpha Score browser extension. The extension
+displays trust ratings for crypto projects (Bitcoin, Ethereum, known scams,
+etc.) when their names appear on web pages you visit. All processing happens
+locally in your browser.
+
+
+--------------------------------------------------------------------------------
+3. DATA PROCESSED LOCALLY
+--------------------------------------------------------------------------------
+
+The following data is processed and stored on your device only:
+
+  a) Extension settings
+     - On/off toggle state
+     - Badge position (screen coordinates)
+     - Badge size
+     - Spotlight dimming level
+
+  b) Usage statistics
+     - Count of projects found per category (diamond, clown, trash, redflag)
+     - Total projects scanned
+     - Stored in chrome.storage.local, displayed in the popup
+
+  c) Page content scanning
+     - The content script reads text on pages you visit to find mentions
+       of crypto project names from the built-in database
+     - This happens entirely in your browser
+     - Page content is never stored, logged, or transmitted anywhere
+
+  d) History Scanner (user-initiated only)
+     - The History Scanner feature reads your browser history ONLY when
+       you explicitly click the "Scan" button in the popup
+     - History is searched locally for mentions of crypto project names
+     - Results are displayed in the popup and never stored or transmitted
+     - The extension never accesses your history automatically
+
+
+--------------------------------------------------------------------------------
+4. DATA TRANSMITTED
+--------------------------------------------------------------------------------
+
+None. The extension makes zero network requests.
+
+There are no:
+  - Analytics or telemetry endpoints
+  - External APIs
+  - Remote databases
+  - CDNs or external resources
+  - Crash reporters
+  - Update pings beyond Chrome's standard extension update mechanism
+
+
+--------------------------------------------------------------------------------
+5. WHAT WE DO NOT COLLECT
+--------------------------------------------------------------------------------
+
+The extension does NOT collect, store, or transmit:
+
+  * Personally identifiable information
+  * Browsing history (read locally on-demand only, never stored or sent)
+  * URLs you visit
+  * Page content (beyond momentary local scanning)
+  * Cookies or authentication data
+  * Financial information
+  * Location data
+  * Keystrokes or user activity
+  * Device identifiers
+  * Any data whatsoever sent to external servers
+
+
+--------------------------------------------------------------------------------
+6. PERMISSIONS
+--------------------------------------------------------------------------------
+
+  storage
+    Used to save your settings and statistics locally on your device via
+    chrome.storage.local. Data is never synced or transmitted.
+
+  history
+    Used exclusively by the History Scanner feature, which runs ONLY when
+    you click the "Scan" button in the extension popup. History entries
+    are read locally, filtered for crypto project names, and displayed.
+    History data is never stored persistently or transmitted anywhere.
+    The extension never accesses your history automatically.
+
+  Content script on all websites (<all_urls>)
+    Crypto project names can appear on any website (Twitter, news sites,
+    forums, exchanges). The content script runs on all pages to detect
+    project names from the built-in database and display rating badges.
+    It reads page text locally and never transmits anything.
+
+
+--------------------------------------------------------------------------------
+7. THIRD-PARTY SERVICES
+--------------------------------------------------------------------------------
+
+None. The extension has no external dependencies. All data (the project
+database with ratings) is bundled inside the extension package. No APIs
+are called, no external services are used.
+
+
+--------------------------------------------------------------------------------
+8. DATA RETENTION AND DELETION
+--------------------------------------------------------------------------------
+
+  * Settings and statistics are stored in chrome.storage.local
+  * Uninstalling the extension permanently deletes all stored data
+  * You can reset statistics by reinstalling the extension
+  * No data exists on any server, so there is nothing to request or delete
+
+
+--------------------------------------------------------------------------------
+9. SECURITY
+--------------------------------------------------------------------------------
+
+  * All processing runs locally in your browser
+  * No network connections means no data interception risk
+  * Built on Manifest V3 with strict Content Security Policy
+  * Source code is available for audit
+
+
+--------------------------------------------------------------------------------
+10. CHILDREN'S PRIVACY
+--------------------------------------------------------------------------------
+
+The extension is not directed at children under 13. It collects no personal
+information from any user.
+
+
+--------------------------------------------------------------------------------
+11. CHANGES TO THIS POLICY
+--------------------------------------------------------------------------------
+
+Updates will be published in the GitHub repository with a new date. Material
+changes will be noted in release notes.
+
+
+--------------------------------------------------------------------------------
+12. CONTACT
+--------------------------------------------------------------------------------
+
+Questions or concerns:
+  * GitHub Issues: https://github.com/AlphaAnogona/alpha-score/issues
+
+
+================================================================================
+END OF PRIVACY POLICY
+================================================================================
