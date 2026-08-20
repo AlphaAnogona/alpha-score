@@ -14,4 +14,4 @@ Chrome extension that shows trust ratings for crypto projects on any website
      - 100% local, zero tracking
 
      ## Privacy
-     See [[Privacy Policy](Privacy%20Policy.txt)](https://github.com/AlphaAnogona/alpha-score/blob/main/Privacy%20Policy.txt)
+     See https://github.com/AlphaAnogona/alpha-score/blob/main/Privacy%20Policy.txt
